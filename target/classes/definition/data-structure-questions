@@ -217,6 +217,7 @@ Draw a table with time complexity in which it will summarize all the data struct
 
 
 
+
 Data      Accessing Element 	Inserting Element	Searching Element	Removing Element
 Array	      O(1)	                 O(n)	                   O(n)	             O(n)
 Linked List   O(n)	                 O(1)	                   O(n)	             O(1)

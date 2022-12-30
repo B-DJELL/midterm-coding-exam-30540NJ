@@ -14,9 +14,9 @@ public class UseQueue {
 		Queue<String> queue = new LinkedList<>();
 
 		// Add elements to the queue
-		queue.add("apple");
-		queue.add("banana");
-		queue.add("cherry");
+		queue.add("Agile");
+		queue.add("QA Tester");
+		queue.add("PO");
 
 		System.out.println("Queue: " + queue);
 
