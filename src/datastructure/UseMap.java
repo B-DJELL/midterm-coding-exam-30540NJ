@@ -20,17 +20,17 @@ public class UseMap {
 
 
 		List<String> list = new ArrayList<String>();
-		list.add("cristiano");
-		list.add("messi");
-		list.add("neymar");
+		list.add("A");
+		list.add("L");
+		list.add("G");
 
 
 		listMap.put("key1", list);
 
 
 		list = new ArrayList<String>();
-		list.add("hazard");
-		list.add("mahrez");
+		list.add("E");
+		list.add("R");
 		listMap.put("key2", list);
 
 

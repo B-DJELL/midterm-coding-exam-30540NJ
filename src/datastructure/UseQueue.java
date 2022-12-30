@@ -15,8 +15,8 @@ public class UseQueue {
 
 		// Add elements to the queue
 		queue.add("Agile");
-		queue.add("QA Tester");
-		queue.add("PO");
+		queue.add("SDET");
+		queue.add("Product Owner");
 
 		System.out.println("Queue: " + queue);
 

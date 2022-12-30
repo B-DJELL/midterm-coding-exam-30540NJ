@@ -19,7 +19,7 @@ public class CollectionView {
                 map.put(5, "San Jose");
                 map.put(6, "Seattle");
 
-                // Retrieve the values in the map using values() method
+
                 Collection<String> values = map.values();
                 System.out.println("Retrieving values using values() method:");
                 for (String value : values) {
