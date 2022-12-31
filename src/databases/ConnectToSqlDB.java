@@ -189,6 +189,7 @@ public class ConnectToSqlDB {
     }
 
     public static void main(String[] args) throws Exception {
+        connectToSqlDatabase();
 //        List<User> list = readUserProfileFromSqlTable();
 //        for(User user:list){
 //            System.out.println(user.getStName() + " " + user.getStID()+ " " + user.getStDOB());
@@ -199,6 +200,21 @@ public class ConnectToSqlDB {
 //            System.out.println(student);
 //        }
 
+
+    }
+
+
+    public static Connection getConnect() {
+        return connect;
+    }
+
+    public boolean disconnect() {
+        boolean disconnect = false;
+        return disconnect;
+    }
+
+    public boolean connect() {
+        return true;
 
     }
 }
