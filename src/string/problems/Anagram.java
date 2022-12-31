@@ -1,3 +1,4 @@
+
 package string.problems;
 import java.util.Arrays;
 public class Anagram {
@@ -23,7 +24,10 @@ public class Anagram {
             }
         }
     }
+
+    public static boolean currentResault(String s1, String s2) {
+        return currentResault(s1, s2);
+
+    }
 }
-
-
 
