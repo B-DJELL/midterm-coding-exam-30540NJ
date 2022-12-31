@@ -204,15 +204,6 @@ public class ConnectToSqlDB {
     }
 
 
-    public static Connection getConnect() {
-        return connect;
-    }
-
-    public boolean disconnect() {
-        boolean disconnect = false;
-        return disconnect;
-    }
-
     public boolean connect() {
         return true;
 
